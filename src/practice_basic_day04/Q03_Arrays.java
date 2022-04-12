@@ -10,13 +10,11 @@ public class Q03_Arrays {
          *(String iniz: "HeySiri"  Diziyi "ByeSiri" ye cevirin )
          *
          */
-String str="HeySiri";
-str=str.replaceAll("Hey","Bye");
-String arr[]=new String[1];
-        arr[0]=str;
+        String str = "HeySiri";
+        str = str.replaceAll("Hey", "Bye");
+        String arr[] = new String[1];
+        arr[0] = str;
         System.out.println(Arrays.toString(arr));
-
-
 
 
     }

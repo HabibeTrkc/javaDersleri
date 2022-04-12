@@ -10,7 +10,7 @@ public class C06 {
         {{1,2,3},{4,5},{6,7}}
         ornek {{1,2,3},{4,5},{6,7}} ==> 1+2+3=6 4+5=9 6+7=13 ==> output {6,9,13}
          */
-
+/*
         int arr[][]={{1,2,3},{4,5},{6,7}};
         int arryn[]=new int[arr.length];
         for (int i = 0; i <arr.length ; i++) {
@@ -20,9 +20,18 @@ public class C06 {
             }
             arryn[i]=toplam;
         }
-        System.out.println(Arrays.toString(arryn));
+        System.out.println(Arrays.toString(arryn));*/
 
+        int sayi[][] = {{1, 2, 3}, {4, 5}, {6, 7}};
+        int toplam=0;
 
+        for (int i = 0; i < sayi.length; i++) {
+            toplam=0;
+            for (int j = 0; j < sayi[i].length; j++) {
+                toplam+=sayi[i][j];
+            }
+            System.out.print(toplam + " ");
+        }
 
 
     }
